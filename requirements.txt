@@ -1,0 +1,2 @@
+geopy~=2.2.0
+meteostat~=1.5.11
