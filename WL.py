@@ -15,7 +15,7 @@ data = Daily(wandersleben, start, end)
 data = data.fetch()
 
 # Plot line chart including average, minimum and maximum temperature
-data.plot(y=['tavg', 'tmin', 'tmax'])
+data.plot(y=['tsun'])
 plt.show()
 
 # TODO: implement TSUN 	Total Sunshine Duration and convert fetched Data into csv
