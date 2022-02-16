@@ -11,7 +11,7 @@ path = "/Users/mersc/Desktop/Solar_Project/Project_fantastic_five/Data/Solar Wan
 all_files = glob.glob(os.path.join(path, "20*.csv"))
 
 # iterate over the files, seperate where a ";" is and skip erroneous lines
-df_from_each_file = (pd.read_csv(f, header=None, engine='python', on_bad_lines=skip, sep=';') for f in all_files)
+df_from_each_file = (pd.read_csv(f, engine='python', on_bad_lines=skip, sep=';') for f in all_files)
 
 df_merged   = pd.concat(df_from_each_file, ignore_index=True)
 df_merged.to_csv( "wandersleben_merged.csv")
