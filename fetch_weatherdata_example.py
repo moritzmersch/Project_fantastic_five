@@ -4,6 +4,7 @@ The user has to input the name of the city as well as the start and end date of 
 The resulting weather data is displayed and saved as a CSV file with the given city name.
 """
 
+
 # Import the required packages
 from pathlib import Path
 from datetime import datetime
