@@ -22,5 +22,6 @@ df3.set_index('time', inplace = True)
 # Write it to a new CSV file
 df3.to_csv('dataset_wandersleben.csv')
 
+# doing a first analysis using pandas profiling 
 profile = ProfileReport(df3, title="Pandas Profiling Report")
 profile.to_file("dataset_wandersleben.html")
