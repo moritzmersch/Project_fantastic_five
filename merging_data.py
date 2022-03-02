@@ -15,3 +15,4 @@ df_from_each_file = (pd.read_csv(f, engine='python', on_bad_lines=skip, sep=';')
 
 df_merged   = pd.concat(df_from_each_file, ignore_index=True)
 df_merged.to_csv( "wandersleben_energy_merged.csv")
+
