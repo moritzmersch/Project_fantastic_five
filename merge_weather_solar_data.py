@@ -4,7 +4,7 @@ from pandas_profiling import ProfileReport
 
 
 
-df1 = pd.read_csv(r"C:\Users\mersc\Desktop\Solar_Project\Project_fantastic_five\wandersleben_merged.csv", index_col=0, decimal=",")
+df1 = pd.read_csv(r"C:\Users\mersc\Desktop\Solar_Project\Project_fantastic_five\wandersleben_energy_merged.csv", index_col=0, decimal=",")
 df2 = pd.read_csv(r"C:\Users\mersc\Desktop\Solar_Project\Project_fantastic_five\Data\Weather_Wandersleben.csv")
 
   
