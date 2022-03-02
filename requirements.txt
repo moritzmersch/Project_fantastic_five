@@ -1,2 +1,5 @@
-geopy~=2.2.0
-meteostat~=1.5.11
+geopy==2.2.0
+matplotlib==3.5.1
+meteostat==1.6.0
+pandas==1.4.0
+pandas_profiling==3.1.0
